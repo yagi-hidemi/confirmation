@@ -1,0 +1,109 @@
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.contact-form__content{
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+.form{
+    border: 2px solid;
+    padding: 35px;
+}
+
+.form__group{
+    line-height: 60px;
+}
+
+.form__group-gender{
+    line-height: 60px;
+}
+
+ input[type="text"]
+ {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.radio {
+    accent-color: #000;
+    inline-size: 2.5rem;
+    block-size: 2.5rem;
+    cursor: pointer;
+    color:  #ddd;
+}
+
+.form__group-content-gender {
+    display: flex;
+    align-items: center;
+}
+
+.gender {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.form__group-title {
+    font-weight: bold;
+    text-align: left;
+    vertical-align: top;
+}
+
+.form__group-content {
+    padding-left: 40px;
+}
+
+
+
+.form__button{
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.reset-link{
+    display: block;
+   text-align: center;
+   color: #000;
+}
+
+.result-table{
+    margin: 30px auto;
+    width: 1230px;
+    max-width: 1230px;
+}
+
+.result-table{
+    line-height: 30px;
+}
+
+.table-header{
+    text-align: left;
+    border-bottom: 2px solid #000;
+}
+
+.delete-button{
+    padding: 1px 15px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
